@@ -69,6 +69,16 @@ console.log('Exercise 6 Result:', maxOfThree(5, 10, 8));
 
 // ----------------------------------------------------------------
 
+function calculateTip (amount, tip) {
+
+  return amount * (tip / 100);
+
+};
+
+console.log('Exercise 7 Result:', calculateTip(50, 20));
+
+// ----------------------------------------------------------------
+
 const convertTemperature = (temp, type) => {
 
   if (type === "C") {
